@@ -6,8 +6,8 @@
   "source": "public/index.html",
   "scripts": {
     "build": "parcel build",
-    "dev": "parcel",
-    "start": "parcel"
+    "dev": "parcel --port 9000",
+    "start": "yarn dev"
   },
   "dependencies": {
     "react": "^17.0.2",
